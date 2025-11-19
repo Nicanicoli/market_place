@@ -1,0 +1,98 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"Emma",
+            "Surname":"Burlac",
+            "photo_url":"https://www.pikpng.com/pngl/m/227-2276314_woman-icon-people-icon-3d-png-clipart.png",
+            "balance":2000
+        },
+        {
+            "id":2,
+            "name":"Alex",
+            "Surname":"Burlac",
+            "photo_url":"https://cdn-icons-png.flaticon.com/512/4086/4086679.png",
+            "balance":1800
+        },
+        {
+            "id":3,
+            "name":"Dima",
+            "Surname":"Burlac",
+            "photo_url":"https://img.icons8.com/color/1200/standing-man.jpg",
+            "balance":3000
+        }
+    ],
+    "products":[
+ 
+     {"id":1,
+        "name":"Doremi",
+        "description":"Ciocolata cu jeleu si nuci",
+        "price":199,
+        "author_id":1,
+        "photo_url":"https://img1.zakaz.md/upload.version_1.0.5e2af2bdbe95b55eb726caef42778b9d.350x350.jpeg"
+    },
+     {"id":2,
+        "name":"Meteorit",
+        "description":"Ciocolata cu nuci",
+        "price":150,
+        "author_id":1,
+        "photo_url":"https://linella.md/public/products/51c96a0c07d8f6f56555c13e7a9dca09.webp"
+    },
+     {"id":3,
+        "name":"Bucurel",
+        "description":"Ciocolata",
+        "price":340,
+        "author_id":2,
+        "photo_url":"https://img1.zakaz.md/upload.version_1.0.1bf4a40517ac1a4a3f7e3211f19eaf9a.350x350.jpeg"
+    },
+     {"id":4,
+        "name":"Dubai chocolate",
+        "description":"Ciocolata cu fistic",
+        "price":230,
+        "author_id":2,
+        "photo_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_kRazYepoRpKNlgHLZNEaCsYdGOYen11Yhg&s"
+    },
+     {"id":5,
+        "name":"Brandusa",
+        "description":"Ciocolata",
+        "price":299,
+        "author_id":2,
+        "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/original/bomboane-bucuria-brandusa-250-gr-385980.png"
+    },
+     {"id":6,
+        "name":"Pasare maiastra",
+        "description":"Ciocolata cu prune",
+        "price":280,
+        "author_id":3,
+        "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/medium/bomboane-bucuria-lapte-de-pasare-frisca-1-150-gr-781227.jpg"
+    },
+     {"id":7,
+        "name":"Iris",
+        "description":"",
+        "price":200,
+        "author_id":3,
+        "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/medium/caramele-bucuria-cu-lapte-1-190-gr-715813.jpg"
+    },
+     {"id":8,
+        "name":"Chisinau de seara cu visine",
+        "description":"Ciocolata cu visine",
+        "price":350,
+        "author_id":3,
+        "photo_url":"https://gomagcdn.ro/domains/bucuria.ro/files/product/medium/bomboane-bucuria-chisinaul-de-seara-cu-visina-1-250-gr-144851.webp"
+    },
+     {"id":9,
+        "name":"Moldova",
+        "description":"Ciocolata",
+        "price":400,
+        "author_id":3,
+        "photo_url":"https://moldbazaar.com/wp-content/uploads/2021/01/MOLDOVA.png"
+    },
+           {"id":10,
+        "name":"Chisinau de seara",
+        "description":"Ciocolata cu prune",
+        "price":300,
+        "author_id":1,
+        "photo_url":"https://img1.zakaz.md/upload.version_1.0.b45e3705007609f9a4222524d567ea15.350x350.jpeg"
+    }
+    ]
+}
