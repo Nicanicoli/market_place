@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"  defer ></script>
+</head>
+<body>
+    <header><h1>Marketplace_Bucuria</h1>
+    <div id="cart">
+        <button id="cart-button" onclick="openCart()">
+            <img src="https://cdn-icons-png.flaticon.com/512/1413/1413908.png" alt="">
+        </button>
+        <div id="cart-products" class="hide">
+Cart is empty
+        </div>
+    </div>
+    </header>
+    <main>
+        <div id="products-grid">
+
+        </div>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="order-block">  </div>
+                <form id="order-form">
+                    <input type="text" name="name" placeholder="Full name">
+                    <input type="text" name="address" placeholder="Delivery address">
+                    <input type="text" name="phone" placeholder="Phone number">
+                    <input type="text" name="post_number" placeholder="Post office number">
+                    <h2>Total price: <span id="price"></span></h2>
+                    <input type="submit" value="order" id="submit">
+                </form>
+          
+        </div>
+    </div>
+</body>
+</html>
